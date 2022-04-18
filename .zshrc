@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh" 
-cp /workspaces/.codespaces/.persistedshare/dotfiles/awesomepanda.zsh-theme $ZSH/themes/
+cp /workspaces/.codespaces/.persistedshare/dotfiles/awesomepanda.zsh.theme $ZSH/themes/
 
 ZSH_THEME="awesomepanda"
 COMPLETION_WAITING_DOTS="true"
