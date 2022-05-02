@@ -14,3 +14,4 @@ alias debug-server="rm /tmp/overmind.sock || true && $(pwd)/script/server --debu
 alias commit="git commit -m"
 alias push="git push origin"
 alias owners="bin/serviceowners $(git diff --name-only master | tr '\n' ' ')"
+alias prepdb="bin/rake db:migrate db:test:prepare"
